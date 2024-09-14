@@ -1,0 +1,97 @@
+
+
+body{
+    background-color: #1a1b44;
+}
+
+.PAPA{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container1{
+    float: left;
+
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    float: inherit;
+}
+
+#logoText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    float: initial;   
+    font-size: 2.6em;
+}
+
+#vector{
+    height: 700px;   
+}
+
+.container2{
+    width: 500px;
+    height: 510px;
+    padding: 5px;
+    position: absolute;
+    right: 300px;
+    top:250px;
+    background-color: #11112e; 
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container2 h1{
+    font-size: 2.6em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container2 p{
+    font-size: 1.2em;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.in{
+    width: 70%;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: 50px;
+    background-color: #11112e;
+    color: aliceblue;
+}
+
+#CB{
+    margin-left: 300px;
+    margin-top: 40px;
+    accent-color: rgba(85, 21, 173, 0.998);
+}
+
+#SignBtn{
+    margin-left: 270px;
+    margin-top: 30px;
+    background-color: rgba(85, 21, 173, 0.998);
+    border:none;
+    text-align: center;
+    padding: 15px 60px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#SignBtn:hover{
+    background-color: #ffffff;
+    color: rgba(85, 21, 173, 0.998);
+}
+
+#link{
+    color: aliceblue;
+    text-decoration:none;
+    margin-left: 120px;
+}
+
